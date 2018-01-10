@@ -46,6 +46,8 @@ Select measurement, greater or less than and finally the value to check.
 SWB+C
 ---
 
+ASL
+---
 
 TX battery monitoring
 ---
