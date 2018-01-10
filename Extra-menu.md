@@ -48,6 +48,8 @@ SWB+C
 
 ASL
 ---
+Menu "system->Extra->ASL"
+[[https://github.com/unitware/FlySkyI6/blob/doc-feature-ppm/doc/img/menu/system/extra/asl.jpg|alt=ASL]]
 
 TX battery monitoring
 ---
