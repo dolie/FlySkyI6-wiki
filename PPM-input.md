@@ -10,3 +10,5 @@ In case of newer receivers PPM output is also active for channels 7-8.
 All configured values are also exposed as IBUS/SBUS values.
 
 To configure channels 11-14 on Aux. channels page keep pressing "OK" button. 
+
+Valid PPM input should contain 6 channels if 8 channels variant is being used channels 7-8 will overlap channels 1-2.
