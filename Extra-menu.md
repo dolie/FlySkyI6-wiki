@@ -75,6 +75,7 @@ Three columns with subtrim and Endpoint settings for channel 8-14
 
 (Q: which is which, and shouldn't endpoints read 100% as starting value?)
 The structure is following:
+
 `Channel 07 [Min limit][Subtrim][Max limit]`
 
 `Channel 08 [Min limit][Subtrim][Max limit]`
