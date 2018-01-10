@@ -1,11 +1,11 @@
 Extra menu
 ===
-[[https://github.com/unitware/FlySkyI6/blob/doc-feature-ppm/doc/img/menu/system/extra.jpg|alt=Extra]]
+[[https://github.com/qba667/FlySkyI6/blob/master/doc/img/menu/system/extra.jpg|alt=Extra]]
 
 Timer
 ---
 Menu "system->Extra->Timer"
-[[https://github.com/unitware/FlySkyI6/blob/doc-feature-ppm/doc/img/menu/system/extra/timer.jpg|alt=Timer]]
+[[https://github.com/qba667/FlySkyI6/blob/master/doc/img/menu/system/extra/timer.jpg|alt=Timer]]
 
 Configuration:
 Arrow should be pointing at Channel. Press UP or DOWN to pick a channel to use to trigger the timer. Usually you should chose Channel 3, the throttle channel (which displays on the screen with no space, so don't confuse it for Channel 13!) Press OK.
@@ -38,7 +38,7 @@ Once the alarm time is reached, the radio will beep once approximately every two
 Alarm
 ---
 Menu "system->Extra->alarm"
-[[https://github.com/unitware/FlySkyI6/blob/doc-feature-ppm/doc/img/menu/system/extra/alarm.jpg|alt=Alarm]]
+[[https://github.com/qba667/FlySkyI6/blob/master/doc/img/menu/system/extra/alarm.jpg|alt=Alarm]]
 
 Select measurement, greater or less than and finally the value to check.
 
@@ -49,12 +49,12 @@ SWB+C
 ASL
 ---
 Menu "system->Extra->ASL"
-[[https://github.com/unitware/FlySkyI6/blob/doc-feature-ppm/doc/img/menu/system/extra/asl.jpg|alt=ASL]]
+[[https://github.com/qba667/FlySkyI6/blob/master/doc/img/menu/system/extra/asl.jpg|alt=ASL]]
 
 TX battery monitoring
 ---
 Menu "system->Extra->Tx Bat"
-[[https://github.com/unitware/FlySkyI6/blob/doc-feature-ppm/doc/img/menu/system/extra/tx-bat.jpg|alt=Tx Bat]]
+[[https://github.com/qba667/FlySkyI6/blob/master/doc/img/menu/system/extra/tx-bat.jpg|alt=Tx Bat]]
 
 Current firmware has no longer a battery gauge in the upper right corner, instead a voltage reading is being used.
 It is possible to change voltage alarm threshold to any number, by going into Extra>TX Bat. 
@@ -64,7 +64,7 @@ If you use NiCds or NiMH, you can lower the voltage threshold to whatever you fe
 Vario
 ---
 Menu "system->Extra->Vario"
-[[https://github.com/unitware/FlySkyI6/blob/doc-feature-ppm/doc/img/menu/system/extra/vario.jpg|alt=Vario]]
+[[https://github.com/qba667/FlySkyI6/blob/master/doc/img/menu/system/extra/vario.jpg|alt=Vario]]
 Select measurement source and Gain
 
 (Q: what does gain do?)
@@ -73,7 +73,7 @@ Select measurement source and Gain
 Endpoints
 ---
 Menu "system->Extra->Endpoints"
-[[https://github.com/unitware/FlySkyI6/blob/doc-feature-ppm/doc/img/menu/system/extra/endpoints.jpg|alt=Endpoints]]
+[[https://github.com/qba667/FlySkyI6/blob/master/doc/img/menu/system/extra/endpoints.jpg|alt=Endpoints]]
 
 Three columns with subtrim and Endpoint settings for channel 7-14
 
