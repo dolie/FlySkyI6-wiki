@@ -66,15 +66,14 @@ Select measurement source and Gain
 (Q: what does gain do?)
 
 
-Mix
+Endpoints
 ---
-Menu "system->Extra->Mix"
-[[https://github.com/unitware/FlySkyI6/blob/doc-feature-ppm/doc/img/menu/system/extra/mix.jpg|alt=Mix]]
+Menu "system->Extra->Endpoints"
+[[https://github.com/unitware/FlySkyI6/blob/doc-feature-ppm/doc/img/menu/system/extra/endpoints.jpg|alt=Endpoints]]
 
-Three columns with subtrim and Endpoint settings for channel 8-14
+Three columns with subtrim and Endpoint settings for channel 7-14
 
-(Q: which is which, and shouldn't endpoints read 100% as starting value?)
-The structure is following:
+The structure is the following:
 
 `Channel 07 [Min limit][Subtrim][Max limit]`
 
@@ -91,8 +90,9 @@ The structure is following:
 `Channel 13 [Min limit][Subtrim][Max limit]`
 
 `Channel 14 [Min limit][Subtrim][Max limit]`
-Default values are set to 0 - because of mod memory initialization. 
-In such state normal mixing is being performed (min = -100%, subtrim = 0, max = 100%);
+
+Default values are set to (min = -100%, subtrim = 0, max = 100%);
+
 Min, max and subtrim can be positive or negative there is no restriction - the only restriction is:
 `Min < subtrim <max`
 
