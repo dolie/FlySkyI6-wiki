@@ -76,13 +76,20 @@ Three columns with subtrim and Endpoint settings for channel 8-14
 (Q: which is which, and shouldn't endpoints read 100% as starting value?)
 The structure is following:
 `Channel 07 [Min limit][Subtrim][Max limit]`
+
 `Channel 08 [Min limit][Subtrim][Max limit]`
+
 `Channel 09 [Min limit][Subtrim][Max limit]`
+
 `Channel 10 [Min limit][Subtrim][Max limit]`
+
 `Channel 11 [Min limit][Subtrim][Max limit]`
+
 `Channel 12 [Min limit][Subtrim][Max limit]`
+
 `Channel 13 [Min limit][Subtrim][Max limit]`
-`Channel 14 [Min limit][Sub trim][Max limit]`
+
+`Channel 14 [Min limit][Subtrim][Max limit]`
 Default values are set to 0 - because of mod memory initialization. 
 In such state normal mixing is being performed (min = -100%, subtrim = 0, max = 100%);
 Min, max and subtrim can be positive or negative there is no restriction - the only restriction is:
