@@ -52,6 +52,10 @@ TX battery monitoring
 Menu "system->Extra->Tx Bat"
 [[https://github.com/unitware/FlySkyI6/blob/doc-feature-ppm/doc/img/menu/system/extra/tx-bat.jpg|alt=Tx Bat]]
 
+Current firmware has no longer a battery gauge in the upper right corner, instead a voltage reading is being used.
+It is possible to change voltage alarm threshold to any number, by going into Extra>TX Bat. 
+The value can be adjusted to use 1S/2S LiPo batteries.
+If you use NiCds or NiMH, you can lower the voltage threshold to whatever you feel is best.
 
 Vario
 ---
