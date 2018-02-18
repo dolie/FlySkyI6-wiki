@@ -65,10 +65,34 @@ Vario
 ---
 Menu "system->Extra->Vario"
 [[https://github.com/qba667/FlySkyI6/blob/master/doc/img/menu/system/extra/vario.jpg|alt=Vario]]
-Select measurement source and Gain
+Vario monitors a selected sensor (the first item in the menu),
+and provides an accoustic feedback representing the change of the sensor value.
+When the value changes, the firmware beeps accordingly: there
+is a very short beep with 1200 Hz frequency providing a baseline,
+and a longer second beep representing the sensor value difference.
+Sensor value increase since the last beep yield higher frequency
+(up to 2400 Hz), and the value decrease yields lower frequency (down to 600 Hz).
 
-(Q: what does gain do?)
+The Gain value in the menu controls how much the sensor value difference
+affects the frequency. The higher gain means higher frequency difference for
+the same sensor value difference. The Gain value in this menu can be set from
+0 to 15. The gain of 3 represents the baseline - sensor difference of +1
+means the sound frequency difference of 1 Hz when the value increases,
+and 0.5 Hz when it decreases (we have 1200 Hz range on the plus side, but only
+600 Hz on the minus side - it is a poor man's way to approximate the
+logarithmic nature of the sound frequency :-) Each step in the Gain value
+means twice as big (or half as big) frequency response. It means, with
+Gain set to 0 the sensor value difference of +8 means frequency of 1201 Hz,
+with Gain of 6 the sensor value difference of +1 means frequency of 1208 Hz,
+and so on.
 
+The raw sensor values are used. So for example, the altitude sensor's raw
+value is in centimeters. When the Gain is set to 5 (which is what Yenya
+uses), an altitude difference of +1 m means the second beep at 1600 Hz,
+and an altitude difference of -1 m means the second beep at 1000 Hz.
+
+See [https://github.com/Yenya/ibus-altitude-sensor](here) for DYI Arduino-based
+altitude, temperature, and battery voltage sensor. 
 
 Endpoints
 ---
