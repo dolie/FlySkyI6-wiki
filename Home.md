@@ -42,7 +42,7 @@ The Turnigy TGY-CAT01 could be implemented by by courtesy of inode_ - thanks for
 
 * Handling AC frames (up to 28 bytes)
 
-#Supported telemetry:
+# Supported telemetry:
 
 | 2 Bytes          | 4 Bytes       | RX specific      |
 | ---------------- | ------------- | ---------------- |
