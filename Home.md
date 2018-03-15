@@ -14,6 +14,33 @@ The Turnigy TGY-CAT01 could be implemented by by courtesy of inode_ - thanks for
 
 ...
 # Features
+* Configurable flight timer
+
+* Configurable telemetry alarms
+
+* Configurable battery 
+
+* Basic telemetry from RX (RSSI, Nosie, SNR)
+
+* Advanced Telemetry
+
+* Configurable output of RX (PPM/PWM/SBUS/IBUS) 
+
+* 3 positions Switch B
+
+* 2 positions Switch E added
+
+* Variable in place of Switch C
+
+* Using PPM input for custom channels
+
+* Refefined main screen
+
+* Channels 12-14 sendinng PPM values 6,5,4 (in older version)
+
+* RSSI (Error) send on channel 11 (in older version)
+
+* Handling AC frames (up to 28 bytes)
 
 # Installation 
 
