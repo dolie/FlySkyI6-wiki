@@ -42,6 +42,37 @@ The Turnigy TGY-CAT01 could be implemented by by courtesy of inode_ - thanks for
 
 * Handling AC frames (up to 28 bytes)
 
+#Supported telemetry:
+
+| 2 Bytes          | 4 Bytes       | RX specific      |
+| ---------------- | ------------- | ---------------- |
+| Temperature      | Pressure      | Internal Voltage |
+| RPM              | Latitude      | SNR              |
+| External Voltage | Longitude     | Noise            |
+| Avg Cell Voltage | Altitude      | RSSI             |
+| Battery current  | GPS Altitude  | Error rate       |
+| Remaining batt.  | Max Altitude  |                  |
+| Throttle         | s85           |                  |
+| Heading          | s86           |                  |
+| Climb rate       | s87           |                  |
+| CoG              | s88           |                  |
+| GPS status       | s89           |                  |
+| ACC X            | s8a           |                  |
+| ACC Y            |               |                  |
+| ACC Z            |               |                  |
+| Roll             |               |                  |
+| Pitch            |               |                  |
+| Yaw              |               |                  |
+| Vertical speed   |               |                  |
+| Ground speed     |               |                  |
+| GPS distnace     |               |                  |
+| Armed            |               |                  |
+| Flight mode      |               |                  |
+| Odometer1        |               |                  |
+| Odometer2        |               |                  |
+| Speed            |               |                  |
+| TX Voltage       |               |                  |
+
 # Installation 
 
 # Tools
