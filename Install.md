@@ -6,7 +6,7 @@ Prerequisities
 
 * Firmware file from the [Releases page](https://github.com/qba667/FlySkyI6/releases).
   Use the version _without_ `swe` in the file name for stock hardware,
-  and _with_ `swe` for FS-i6 with [added SwE switch](SWE.md).
+  and _with_ `swe` for FS-i6 with [added SwE switch](HW-Mod-SwE).
 * [FlySky Updater](https://github.com/mhils/flysky-updater) from the mhils'
   repository. Put it to the same directory as the firmware file.
 * USB-to-RS232/TTL interface. Any FTDI FT232RL-based board will do.
