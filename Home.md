@@ -4,53 +4,6 @@ This is an alternative firmware for FlySky i6 transmitters.
 See below for the list of features added (including the 14 channels
 support, of course!).
 
-## [How to install this firmware](Install.md)
-
-## Features
-
-* [Configurable flight timer](Timer.md)
-
-* [Configurable telemetry alarms](Alarms.md)
-
-* Configurable battery 
-
-* Basic telemetry from RX (RSSI, Nosie, SNR)
-
-* Advanced Telemetry
-There is also version sending IBus channel data and telemetry on same wire (serial port):
-
-https://github.com/qba667/MAVLinkToIbus/tree/master/IA6B
-
-
-* Configurable output of RX (PPM/PWM/SBUS/IBUS) 
-
-* [3 positions Switch B](HW-Mod-SwB.md)
-
-* [2 positions Switch E added](HW-Mod-SwE.md)
-
-* Variable in place of Switch C
-
-* Using PPM input for custom channels
-
-* Refined main screen
-
-* Channels 12-14 sendinng PPM values 6,5,4 (in older version)
-
-* RSSI (Error) send on channel 11 (in older version)
-
-* Handling AC frames (up to 28 bytes)
-
-## Tools
-
-* Updater by ThomHpl
-* Updater by mhils
-* GfxEditor
-* Python scripts
-
-## Developers 
-
-## Telemetry protocol
-
 ## Credits
 
 The firmware is a modification of oryginal FlySky firmware inspired
@@ -71,4 +24,40 @@ If you like the software, you can also consider a donation.
 All donations are greatly appreciated!
 
 [![Donate](https://www.paypalobjects.com/en_US/GB/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VSM36U6F7EN68)
+
+## [How to Install this Firmware](Install)
+
+## Features
+
+* Refined main screen
+* 14 channels (channel 5-14 as auxilliary)
+* [Configurable flight timer](Timer)
+* [Configurable telemetry alarms](Alarms)
+* [Vario: accoustic altitude feedback](Vario)
+* [Extra Menu](Extra-menu)
+* Configurable battery 
+* Using PPM input for custom channels
+* Configurable output of RX (PPM/PWM/SBUS/IBUS) 
+* Basic telemetry from RX (RSSI, Nosie, SNR)
+* Advanced Telemetry
+	- Handling AC frames (up to 28 bytes)
+	- There is also version sending IBus channel data and telemetry on same wire (serial port): https://github.com/qba667/MAVLinkToIbus/tree/master/IA6B
+	- TODO: ibus telemetry protocol, ibus servo frames
+* Channels 12-14 sendinng PPM values 6,5,4 (in older version)
+* RSSI (Error) send on channel 11 (in older version)
+
+
+## Hardware Mods Supported
+
+* [3 positions Switch B](HW-Mod-SwB)
+* [2 positions Switch E added](HW-Mod-SwE)
+* Variable in place of Switch C
+
+## Tools
+
+* GfxEditor
+* Python scripts
+
+## Developers 
+
 
