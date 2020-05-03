@@ -31,14 +31,16 @@ All donations are greatly appreciated!
 
 * Refined main screen
 * 14 channels (channel 5-14 as auxilliary)
-* [Configurable flight timer](Timer)
-* [Configurable telemetry alarms](Alarms)
-* [Vario: accoustic altitude feedback](Vario)
 * [Extra Menu](Extra-menu)
 * Configurable battery 
-* Using PPM input for custom channels
+* Multiple switches used together as single channel
+* [Flight timer](Timer)
+* [Configurable telemetry alarms](Alarms)
+* [Vario: accoustic altitude feedback](Vario)
+	- using either TGY-CAT01 or [Arduino-based altitude sensor](https://github.com/Yenya/ibus-altitude-sensor) by @Yenya.
+* PPM input for custom channels
 * Configurable output of RX (PPM/PWM/SBUS/IBUS) 
-* Basic telemetry from RX (RSSI, Nosie, SNR)
+* Basic telemetry from RX (RSSI, Noise, SNR)
 * Advanced Telemetry
 	- Handling AC frames (up to 28 bytes)
 	- There is also version sending IBus channel data and telemetry on same wire (serial port): https://github.com/qba667/MAVLinkToIbus/tree/master/IA6B
@@ -46,12 +48,11 @@ All donations are greatly appreciated!
 * Channels 12-14 sendinng PPM values 6,5,4 (in older version)
 * RSSI (Error) send on channel 11 (in older version)
 
-
 ## Hardware Mods Supported
 
-* [3 positions Switch B](HW-Mod-SwB)
-* [2 positions Switch E added](HW-Mod-SwE)
-* Variable in place of Switch C
+* [Switch SwB modified for three positions](HW-Mod-SwB)
+* [New switch SwE](HW-Mod-SwE)
+* Potentiometer in place of switch SwC
 
 ## Tools
 
@@ -59,5 +60,4 @@ All donations are greatly appreciated!
 * Python scripts
 
 ## Developers 
-
 
