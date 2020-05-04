@@ -31,8 +31,8 @@ All donations are greatly appreciated!
 
 * Refined main screen
 * [14 channels](14-channels) (channel 5-14 as auxilliary)
-* [Extra Menu](Extra-menu)
-* Configurable battery 
+* [Extra Menu](Extra-Menu)
+* [Configurable Tx battery voltage limit](Tx-Battery)
 * Multiple switches used together as single channel
 * [Flight timer](Timer)
 * [Configurable telemetry alarms](Alarms)
