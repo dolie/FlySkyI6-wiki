@@ -30,7 +30,7 @@ All donations are greatly appreciated!
 ## Features
 
 * Refined main screen
-* 14 channels (channel 5-14 as auxilliary)
+* [14 channels](14-channels) (channel 5-14 as auxilliary)
 * [Extra Menu](Extra-menu)
 * Configurable battery 
 * Multiple switches used together as single channel
