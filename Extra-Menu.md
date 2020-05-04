@@ -1,6 +1,10 @@
 Extra menu
 ===
-[[https://github.com/qba667/FlySkyI6/blob/master/doc/img/menu/system/extra.jpg|alt=Extra]]
+
+The Extra menu is available in `System` ⭢ `Extra`, and contains
+various settings added by the FlyPlus firmware:
+
+![Extra Menu](extra.jpg)
 
 * [Flight/throttle timer](Timer)
 * [Configurable alarms](Alarms)
