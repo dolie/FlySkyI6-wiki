@@ -38,6 +38,7 @@ All donations are greatly appreciated!
 * [Configurable telemetry alarms](Alarms)
 * [Vario: accoustic altitude feedback](Vario)
 	- using either TGY-CAT01 or [Arduino-based altitude sensor](https://github.com/Yenya/ibus-altitude-sensor) by @Yenya.
+* [ASL sensor](ASL), such as TGY-CAT01.
 * PPM input for custom channels
 * Configurable output of RX (PPM/PWM/SBUS/IBUS) 
 * Basic telemetry from RX (RSSI, Noise, SNR)
