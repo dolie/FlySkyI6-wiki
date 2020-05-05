@@ -25,6 +25,8 @@ All donations are greatly appreciated!
 
 [![Donate](https://www.paypalobjects.com/en_US/GB/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VSM36U6F7EN68)
 
+![Main Screen](main-screen-flyplus.jpg)
+
 ## [How to Install this Firmware](Install)
 
 ## Features
