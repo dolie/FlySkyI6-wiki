@@ -9,7 +9,7 @@ the usual way, in `System` ⭢ `RX Setup` ⭢ `Sensors List` menu.
 Up to six sensors can be put directly into the main screen
 in the `System` ⭢ `RX Setup` ⭢ `Choose sensors` menu.
 
-![Sensors selection](choose sensors.jpg)
+![Sensors selection](choose-sensors.jpg)
 
 By default, the first three sensors and their values are displayed:
 
