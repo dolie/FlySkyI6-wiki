@@ -36,3 +36,11 @@ Add the third wire to `SwB` (the green one in the above image) and
 connect it to the connector `J7` as described.
 Alternatively, it is possible to solder it to the circular pad upper
 right from to the connector - it is the same wire/net.
+
+Setup
+---
+
+In the `System` ⭢ `Extra` ⭢ `SwB+C` menu, configure SwB for three positions:
+
+![SwB-SwC](swb-swc.jpg)
+
