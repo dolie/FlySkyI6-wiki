@@ -16,8 +16,8 @@ By default, the first three sensors and their values are displayed:
 ![Main Screen](main-screen-flyplus.jpg)
 
 By pressing the `Up` button, the next three sensors can be displayed.
-Pressing `Up` further leads to the lists of _all_ available sensors,
-together with values (if the sensor is present):
+Pressing `Up` further leads to the lists of _all_ defined sensors,
+together with values (for sensors that are currently present):
 
 ![Sensors 1](main-sensors-1.jpg)
 
@@ -31,7 +31,7 @@ together with values (if the sensor is present):
 
 ## Features Related to Telemetry ##
 
-* Sensor value change can be used a s a source for [accoustic feedbac](Vario).
+* Sensor value change can be used as a source for [accoustic feedback](Vario).
 
 * Sensor value can trigger an [user alarm](Alarms).
 
