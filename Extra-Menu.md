@@ -6,6 +6,8 @@ various settings added by the FlyPlus firmware:
 
 ![Extra Menu](extra.jpg)
 
+![Extra Menu 2](extra-menu-2.jpg)
+
 * [Flight/throttle timer](Timer)
 * [Configurable alarms](Alarms)
 * [SwB and SwC setup](SwB-SwC)
