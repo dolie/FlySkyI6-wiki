@@ -41,11 +41,7 @@ All donations are greatly appreciated!
 * [ASL sensor](ASL), such as TGY-CAT01.
 * PPM input for custom channels
 * Configurable output of RX (PPM/PWM/SBUS/IBUS) 
-* Basic telemetry from RX (RSSI, Noise, SNR)
-* Advanced Telemetry
-	- Handling AC frames (up to 28 bytes)
-	- There is also version sending IBus channel data and telemetry on same wire (serial port): https://github.com/qba667/MAVLinkToIbus/tree/master/IA6B
-	- TODO: ibus telemetry protocol, ibus servo frames
+* [Telemetry](Telemetry) with more sensors supported and displayed
 * [RSSI value sent to Rx](Get-RSSI-as-PPM-PWM-SBUS-IBUS) as a channel
 
 ## Hardware Mods Supported
