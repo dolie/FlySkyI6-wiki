@@ -11,7 +11,9 @@ Switches, potentiometers, PPM channels, etc. The assignmnent of the
 input source to the output channel can be done in the
 `Key` ⭢ `Aux Channels` menu:
 
-![Aux Channels](aux-channels.jpg)
+![Aux Channels 1](aux-channels-1.jpg)
+
+![Aux Channels 2](aux-channels-2.jpg)
 
 
 ### Endpoints and Subtrims ###
