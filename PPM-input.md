@@ -1,7 +1,7 @@
 # PPM Input as Aux. Channels #
 
 An external source of channel data can be connected to the mini-DIN connector
-on the back side of the transmitter. It can be use for example to control
+on the back side of the transmitter. It can be used for example to control
 an on-board camera gimbal using the second transmitter, providing
 a two-person (pilot and cameraman) setup.
 

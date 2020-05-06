@@ -44,7 +44,7 @@ All donations are greatly appreciated!
 * [Vario: accoustic altitude feedback](Vario)
 	- using either TGY-CAT01 or [Arduino-based altitude sensor](https://github.com/Yenya/ibus-altitude-sensor) by @Yenya.
 * [ASL sensor](ASL), such as TGY-CAT01.
-* PPM input for custom channels
+* [PPM input](PPM-input) for custom channels
 * Configurable output of RX (PPM/PWM/SBUS/IBUS) 
 * [Telemetry](Telemetry) with more sensors supported and displayed
 * [RSSI value sent to Rx](Get-RSSI-as-PPM-PWM-SBUS-IBUS) as a channel
