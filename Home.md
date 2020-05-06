@@ -40,7 +40,7 @@ All donations are greatly appreciated!
 * [14 channels](14-channels) (channel 5-14 as auxilliary)
 * [Extra Menu](Extra-Menu)
 * [Configurable Tx battery voltage limit](Tx-Battery)
-* Multiple switches used together as single channel
+* [Pairs of switches](Switches-Combined) used together as a single channel
 * [Flight timer](Timer)
 * [Configurable telemetry alarms](Alarms)
 * [Vario: accoustic altitude feedback](Vario)
