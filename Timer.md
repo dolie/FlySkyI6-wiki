@@ -5,7 +5,7 @@ or counting the time throttle was on only. The timer value is displayed
 in the upper left corner of the main screen, and after the preconfigured
 time limit is reached, the transmitter beeps:
 
-![Main Screen](main-screen.jpg)
+![Main Screen](main-screen-flyplus.jpg)
 
 ### Set-up ###
 
