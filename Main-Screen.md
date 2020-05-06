@@ -16,7 +16,7 @@ main screen.
 ![Main Screen Items](main-screen-flyplus-description.jpg)
 
 1. [Timer with alarm](Timer)
-2. SNR (Signal-to-noise ratio). See [Alarms] for details on how to set up
+2. SNR (Signal-to-noise ratio). See [Alarms](Alarms) for details on how to set up
    an user alarm when the SNR drops too low.
 3. Model name
 4. [Sensors](Telemetry) 1-3 or 4-6 (use `Up` and `Down` buttons to switch
