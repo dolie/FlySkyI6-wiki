@@ -50,6 +50,7 @@ All donations are greatly appreciated!
 * [Configurable output of RX (PPM/PWM/SBUS/IBUS)](Rx-Output)
 * [Telemetry](Telemetry) with more sensors supported and displayed
 * [RSSI value sent to Rx](Get-RSSI-as-PPM-PWM-SBUS-IBUS) as a channel
+* [Battery voltage adjustment](Voltage-Adjustment)
 
 ## Hardware Mods Supported
 
