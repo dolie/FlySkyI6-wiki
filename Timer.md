@@ -7,14 +7,14 @@ time limit is reached, the transmitter beeps:
 
 ![Main Screen](main-screen-flyplus.jpg)
 
-### Set-up ###
+## Set-up ##
 
 Go to the `System` ⭢ `Extra` ⭢ `Timer` menu, which looks like this:
 
 ![Timer Menu](timer.jpg)
 
 
-#### Channel ####
+### Channel ###
 
 The first row selects the **Channel** which triggers the timer.
 Usually you should choose `Channel 3`, the throttle channel
@@ -22,7 +22,7 @@ Usually you should choose `Channel 3`, the throttle channel
 `Channel 13`!).
 
 
-#### Value ####
+### Value ###
 
 Select the **threshold** value above which the timer is triggered and starts
 counting. The range of values (not counting
@@ -35,7 +35,7 @@ For throttle, the default of 1100, which is slightly above the bottom
 value, is probably what you want.
 
 
-#### Alarm ####
+### Alarm ###
 
 Here you can set up the **duration** of the timer. After the time set up here
 is reached, the transmitter starts to beep. In 1.7.6 and above,
@@ -47,7 +47,7 @@ first. So if you are several minutes in-flight, you have to click
 `Cancel`, and then click and hold `Cancel` again to reset the timer.
 
 
-#### Hold ####
+### Hold ###
 
 There are two modes of operation of the Timer: when Hold is set to 0,
 the timer stops counting as soon as the selected channel drops below
