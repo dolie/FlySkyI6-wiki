@@ -7,7 +7,7 @@ original 6 channels.
 ### Channel Source ###
 
 There are various sources which can be used as a channel data.
-Switches, potentiometers, PPM channels, etc. The assignmnent of the
+Switches, potentiometers, [PPM channels](PPM-Input), etc. The assignmnent of the
 input source to the output channel can be done in the
 `Key` ⭢ `Aux Channels` menu:
 

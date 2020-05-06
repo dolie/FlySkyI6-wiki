@@ -4,6 +4,9 @@ This is an alternative firmware for FlySky i6 transmitters.
 See below for the list of features added (including the 14 channels
 support, of course!).
 
+![Main Screen](main-screen-flyplus.jpg)
+
+
 ## Credits
 
 The firmware is a modification of oryginal FlySky firmware inspired
@@ -25,9 +28,9 @@ All donations are greatly appreciated!
 
 [![Donate](https://www.paypalobjects.com/en_US/GB/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VSM36U6F7EN68)
 
-![Main Screen](main-screen-flyplus.jpg)
 
 ## [How to Install this Firmware](Install)
+
 
 ## Features
 
