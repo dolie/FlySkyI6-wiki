@@ -1,9 +1,7 @@
-Two-position Switch SwE
-==
+# Two-position Switch SwE #
 
 
-Description
----
+## Description ##
 
 The FlySky i6 CPU has an unused digital input pin, which can be repurposed for
 a two-position switch, which we call `SwE` here. The switch can be used
@@ -12,16 +10,14 @@ for example as a source for another channel in the
 look for the firmware file with `swe` in its name.
 
 
-Requirements
----
+## Requirements ##
 
 * A two-position switch or a momentary switch.
 * 220R resitor
 * 10K resistor
 
 
-How To
----
+## How To ##
 
 Firstly, the schematics looks as follows:
 
@@ -33,8 +29,7 @@ testing pad located on the PCB near the CPU itself:
 ![SwE testpoint](swe-testpoint.jpg)
 
 
-Mounting the Switch
----
+## Mounting the Switch ##
 
 The new switch can be mounted somewhere on the case, preferably to the
 top-right corner:
@@ -42,8 +37,7 @@ top-right corner:
 ![SwE case](swe-case.jpg)
 
 
-Using SwD as a Momentary Pushbutton
----
+## Using SwD as a Momentary Pushbutton ##
 
 Here is an alternative approach by @Yenya: He often flies with
 his children using a teacher-student cable, and he found out that
@@ -61,8 +55,7 @@ between teacher and student control).
 * Use the existing flip-switch labeled `SwD` as a new `SwE`, as described above.
 
 
-Implementation Note
----
+## Implementation Note ##
 
 Explanation of why this mod requires its own firmware:
 The FlySky i6 firmware tries to send out a new channel state as soon as

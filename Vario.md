@@ -1,5 +1,4 @@
-Vario
-==
+# Vario #
 
 The FlyPlus firmware can provide an **accoustic feedback of the
 rising or sinking plane**, similar to the dedicated variometers,
@@ -7,8 +6,7 @@ provided that there is an altitude or pressure sensor on-board
 of the aircraft.
 
 
-Requirements
----
+## Requirements ##
 
 An I-Bus altitude sensor, such as Turnigy TGY-CAT01, or a home-made
 one (such as
@@ -17,8 +15,7 @@ Connect the sensor to the receiver, and verify you can see it in
 the `System` ⭢ `Sensors List` menu.
 
 
-Description
----
+## Description ##
 
 The firmware monitors a selected sensor, and provides accoustic
 feedback based of the sensor value change. There are two variants of the
@@ -33,15 +30,14 @@ sound:
 	the sensor value decrease (down to 600 Hz).
 
 
-Set-up
----
+## Set-up ##
 
 Go to the `System` ⭢ `Extra` ⭢ `Vario` menu, which looks like this:
 
 ![Vario Menu](vario.jpg)
 
 
-#### Source #####
+### Source ####
 
 The first line in the menu screen selects the **Sensor** to be used
 as vario. It could be a pressure sensor, altitude sensor, or even
@@ -49,7 +45,7 @@ something completely different that you want to hear changing, such
 as SNR.
 
 
-#### Gain ####
+### Gain ###
 
 The second line selects **Gain**: the value controls how much the sensor
 value difference affects the sound frequency. The higher gain means
@@ -75,7 +71,7 @@ uses), an altitude difference of +1 m means the second beep at 1400 Hz,
 and an altitude difference of -1 m means the second beep at 900 Hz.
 
 
-#### Dead ####
+### Dead ###
 
 The **Deadband** value denotes the difference range in which Tx does not beep
 at all. With the altitude or pressure sensor it represents a level flight.

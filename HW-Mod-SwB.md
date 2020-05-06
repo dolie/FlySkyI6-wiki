@@ -1,23 +1,19 @@
-Three-position Switch SwB
-==
+# Three-position Switch SwB #
 
 
-Description
----
+## Description ##
 
 The `SwB` switch is connected to the CPU pin capable of analog input,
 so it can be replaced with a three-position switch instead of two-position
 one. It can also be handled as a six-position auxilliary channel
 in combination with the `SwA` switch. See the `Key`  ⭢ `AUX Channels` menu.
 
-Requirements
----
+## Requirements ##
 
 * A three-position switch
 * A 4K7 resitor, SMD 1206 or 0804 size
 
-How To
----
+## How To ##
 
 Firstly, the schematics looks as follows:
 
@@ -37,8 +33,7 @@ connect it to the connector `J7` as described.
 Alternatively, it is possible to solder it to the circular pad upper
 right from to the connector - it is the same wire/net.
 
-Setup
----
+## Setup ##
 
 In the `System` ⭢ `Extra` ⭢ `SwB+C` menu, configure SwB for three positions:
 
