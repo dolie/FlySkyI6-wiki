@@ -31,7 +31,7 @@ All donations are greatly appreciated!
 
 ## Features
 
-* Refined main screen
+* [Refined main screen](Main-Screen)
 * [14 channels](14-channels) (channel 5-14 as auxilliary)
 * [Extra Menu](Extra-Menu)
 * [Configurable Tx battery voltage limit](Tx-Battery)
