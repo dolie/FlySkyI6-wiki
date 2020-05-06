@@ -5,12 +5,12 @@ as a single channel source. Go to the `Key` ⭢ `Aux Channels` menu
 to configure it. There are following combinations available:
 
 * SwA+B
-* SWB+C
+* SwB+C
 * SwC+D
 
 ## 2-position and 3-position Switch ##
 
-For the `SwA+B` and `SwC+D` the channel value is computed as follows:
+For the `SwA+B` and `SwC+D` variants, the channel value is computed as follows:
 
 | SwA or SwD | SwB or SwC | Value   |
 |------------|------------|---------|
