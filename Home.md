@@ -10,14 +10,18 @@ and [hardware mods](#hardware-mods-supported) supported.
 
 ## Credits
 
-The firmware is a modification of oryginal FlySky firmware inspired
-and based on work of @ThomHpl and Dave Borthwick. With use of repository
-created by @benb0jangles and input from @povlhp. Currently supported
-and maintained by @qba667 with great input and improvements from @Yenya.
+The firmware is a modification of original FlySky firmware inspired
+and based on work of _@ThomHpl_ and _Dave Borthwick_,
+With use of repository created by
+[@benb0jangles](https://github.com/benb0jangles/FlySky-i6-Mod-)
+and input from _@povlhp_. Currently supported
+and maintained by _@qba667_ with great input and improvements from _@Yenya_.
 
-Including input from rcgroups users from thread: https://www.rcgroups.com/forums/showthread.php?2486545-FlySky-FS-i6-8-channels-firmware-patch!
+Including input from rcgroups users from the following thread:
 
-The Turnigy TGY-CAT01 could be implemented by by courtesy of inode_ - thanks for providing of the sensor and huge amount of measurement and analysis made by cookieqk.
+[FlySky-FS-i6-8-channels-firmware-patch!](https://www.rcgroups.com/forums/showthread.php?2486545-FlySky-FS-i6-8-channels-firmware-patch!)
+
+The Turnigy TGY-CAT01 support could be implemented by by courtesy of *inode_* - thanks for providing of the sensor and huge amount of measurement and analysis made by cookieqk.
 
 In case if you want to support the project and reward me the time I spent on the FW please click this affiliate link when shopping at Banggood - It is free for you, but I will get reward from Banggood: 
 
