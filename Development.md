@@ -2,7 +2,7 @@
 
 ## Toolchain ##
 
-The firmware is cimpiled with `arm-none-eabi` GCC toolchain.
+The firmware is compiled with `arm-none-eabi` GCC toolchain.
 
 ## Build using `make` ##
 
@@ -26,9 +26,9 @@ Documentation was created with use modified script
 http://magiclantern.wikia.com/wiki/GPL_Tools/disasm.py
 
 It is also to possibile to compile some parts of modifyed firmware with gcc (all c files are in source directory).
-The project was oryginaly compiled with Freescale Kinetics. 
+The project was originally compiled with Freescale Kinetics. 
 
-Compiled elements must be replaced later in oryginal file (addresses are described in source/MKL16Z64xxx4_flash.ld)
+Compiled elements must be replaced later in original file (addresses are described in source/MKL16Z64xxx4_flash.ld)
 Current linker script is not able to combine compilation results and old FW.
 Command used for compilation (extraced from Freescale Kinetics)
 
