@@ -5,8 +5,10 @@
 * Firmware file from the [Releases page](https://github.com/qba667/FlySkyI6/releases).
   Use the version _without_ `swe` in the file name for stock hardware,
   and _with_ `swe` for FS-i6 with [added SwE switch](HW-Mod-SwE).
-* [FlySky Updater](https://github.com/mhils/flysky-updater) from the mhils'
-  repository. Put it to the same directory as the firmware file.
+* FlySky Updater, which is bundled with the firmware release,
+  or you can get it from the
+  [mhils' repository](https://github.com/mhils/flysky-updater).
+  Put it to the same directory as the firmware file.
 * USB-to-RS232/TTL interface. Any FTDI FT232RL-based board will do.
 
 
@@ -57,6 +59,9 @@ On Linux, the command line is similar (run it as root):
 ./flysky-updater-linux64 --port /dev/ttyUSB0 --image fs-i6_updater_MM_DD_HH_MM.bin
 ```
 
+The installed firmware version and date can be verified
+in the `System` ⭢ `Firmware ver.` menu.
+
 
 ## That's it! ##
 
@@ -68,8 +73,8 @@ that the models are set up correctly before flight!*
 
 ### Note on 1.7.6 ###
 
-For upgrade to 1.7.6 from earlier versions, the configuration added by
-FlyPlus features gets overwritten. This means it is necessary to set up the
+For upgrade to 1.7.6 from earlier versions, the **configuration added by
+FlyPlus features gets overwritten**. This means it is necessary to set up the
 following features again:
 
 * [Vario](Vario)
