@@ -67,4 +67,5 @@ All donations are greatly appreciated!
 
 ## For Developers 
 
-TODO
+* [Intro for Developers](Development)
+
