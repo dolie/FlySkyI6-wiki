@@ -60,6 +60,16 @@ All donations are greatly appreciated!
 
 ## [How to Install this Firmware](Install)
 
+## Setup Examples
+
+_(not specific to the FlyPlus firmware)_
+
+* [Plank Flying Wing](Setup-Plank)
+* [Ailerons on a separate channels](Setup-Dual-Ailerons) TODO
+* [Paraglide/Paramotor](Setup-Paraglide) TODO
+* [Snap Flaps](Setup-Snapflaps) TODO
+* [Disable channel with the switch](Setup-Disable-Channel) TODO
+
 ## Tools
 
 * GfxEditor
