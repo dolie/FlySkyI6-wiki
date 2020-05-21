@@ -6,6 +6,8 @@ Flying wings have, of course, two **elevons**. Planks (flying wings without
 the wing sweep) are a bit special in being extremely sensitive to the
 elevator input, and a bit less sensitive to the aileron input.
 
+![Ita Plank Wing](plank-ita.jpg)
+
 I also wanted to have **flying modes** on a three-position switch `SwC`:
 
 * **fast mode**, elevator trimmed for fast flight,
