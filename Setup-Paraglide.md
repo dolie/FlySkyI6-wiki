@@ -1,4 +1,4 @@
-# Paraglid/Paramotor Setup
+# Paraglide/Paramotor Setup
 
 ![Paraglide Servos](paraglide-servos.jpg)
 
@@ -7,10 +7,11 @@
 The basic paraglide control uses two servos, each controling its own side
 of the brake lines (the rearmost lines). In the neutral position, the servo
 levers ("hands") are both in the upmost position. When turning, only one of
-the servos should pull its lever (unlike, e.g., the V-Tail or Elevon mix).
-When braking, both hands should go down simultaneously.
+the servos should pull its brake lines, i.e. the hand going down.
+This is  unlike,the V-Tail or Elevon mix, where servos move in the opposite
+directions during turns. When braking, both hands should go down simultaneously.
 
-Then main challenge setting this up is to use the full range of the servo
+Then main challenge with setting this up is to use the full range of the servo
 travel, instead of just half range. I.e., we want the servos to be at the
 end of its travel when in neutral position.
 
@@ -19,25 +20,25 @@ end of its travel when in neutral position.
 
 There are two different way how to pilot the paraglide:
 
-* **Single-stick control**, where the aileron direction controls left
+* **Aileron-elevator control**, where the aileron direction controls left
 servo only when moved to the left, and right servo only when moved
-to the right. In addition to that, the elevator direction pulls both
-servos simultaneously.
+to the right. In addition to that, pulling the elevator direction pulls both
+servos simultaneously, and pushing the elevator does nothing.
 
-* **Full-scale like control** where the left stick from the neutral to the
+* **Full-scale control** where the left stick from the neutral to the
 outwards left position controls the full travel of the left servo,
 the right stick from the middle to the outwards right position controls the
 right servo, inwards movement of those sticks do nothing, as well as
 the elevator stick.
 
 So far I did not find a good way how to set the first mode with full servo
-travel up using only three mixes of FS-i6. So I will describe how to set up
-the second (full-scale like) controls:
+travel using only three mixes of FS-i6. So I will describe how to set up
+the second (full-scale like) type control:
 
 ## Setup
 
 I presume Mode 2 (throttle on the left stick) here. Plug the left servo
-to `Ch4`, the right servo to `Ch1` of your receiver. Then set up the
+to `Ch4` and the right servo to `Ch1` of your receiver. Then set up the
 following mixes in order to map half of the stick travel to the full travel
 of the servos:
 
@@ -65,5 +66,7 @@ Key → Mix → Mix #2
 ## Other Features
 
 Some paraglides have additional servo(s) to control the A-lines (front lines).
-Also, some pilots use variometer for controlling the neutral position of the main servos. So far I did not use any of that.
+Also, some pilots use potentiometer for controlling the neutral position
+of the main servos, allowing them to fly in a _slightly braked_ mode.
+So far I did not configure any of the above.
 
