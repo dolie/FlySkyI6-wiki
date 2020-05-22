@@ -24,7 +24,7 @@ rudder stick only, gliding in thermal, and also to have the left stick to
 ## Setup
 
 Plug elevon servos to `Ch1` and `Ch2`, respectively. Firstly set up the elevon
-mode:
+mode, giving the alieron direction full range (instead of full range being available at diagonal stick positions only):
 
 ```
 Key → Elevon
@@ -36,7 +36,8 @@ Key → Elevon
 Put a three-position switch `SwC` on `Ch5`:
 
 ```
-Aux Channels → Channel 5: SwC
+Key → Aux Channels
+   Channel 5: SwC
 ```
 
 Use the mix to move the elevator up with `SwC`. Note that the differences
