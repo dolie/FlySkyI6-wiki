@@ -1,11 +1,12 @@
-# Disable the Channel Using a Switch
+# Disable Channel Using a Switch
 
 This is commonly requested feature for FlyPlus developers:
 
 * [Aux = VRx\*SWy (Issue #64)](https://github.com/qba667/FlySkyI6/issues/64)
 * [ Modify "Mix" so that a slave channels input can be held at zero (Issue #82)](https://github.com/qba667/FlySkyI6/issues/82)
 
-But it can be done with standard FlySky firmware mixes.
+But it can be done with standard FlySky firmware mixes, no special
+FlyPlus feature is required:
 
 ## Setup
 
