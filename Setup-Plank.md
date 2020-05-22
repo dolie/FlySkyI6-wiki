@@ -44,7 +44,7 @@ Use the mix to move the elevator up with `SwC`. Note that the differences
 are very tiny, 0 % in the fast mode (default), 3 % in the slow mode, and 9 % in the takeoff/landing mode.
 
 ```
-Mix → Mix 1
+Key → Mix → Mix 1
    Mix is     On
    Master     Ch5
    Slave      Ch2
@@ -56,7 +56,7 @@ Mix → Mix 1
 And finally, use the rudder stick as low-rate ailerons:
 
 ```
-Mix → Mix 2
+Key → Mix → Mix 2
    Mix is     On
    Master     Ch4
    Slave      Ch1
