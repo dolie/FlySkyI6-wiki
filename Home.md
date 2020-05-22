@@ -68,7 +68,7 @@ _(not specific to the FlyPlus firmware)_
 * [Ailerons on two separate channels](Setup-Dual-Ailerons) TODO
 * [Paraglide/Paramotor](Setup-Paraglide) TODO
 * [Snap Flaps](Setup-Snapflaps) TODO
-* [Disable channel with the switch](Setup-Disable-Channel) TODO
+* [Disable channel with the switch](Setup-Disable-Channel)
 
 ## Tools
 
