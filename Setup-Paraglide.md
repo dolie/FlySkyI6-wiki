@@ -8,10 +8,10 @@ The basic paraglide control uses two servos, each controling its own side
 of the brake lines (the rearmost lines). In the neutral position, the servo
 levers ("hands") are both in the upmost position. When turning, only one of
 the servos should pull its brake lines, i.e. the hand going down.
-This is  unlike,the V-Tail or Elevon mix, where servos move in the opposite
+This is  unlike the V-Tail or Elevon mix, where the servos move in the opposite
 directions during turns. When braking, both hands should go down simultaneously.
 
-Then main challenge with setting this up is to use the full range of the servo
+The main challenge with setting this up is to use the full range of the servo
 travel, instead of just half range. I.e., we want the servos to be at the
 end of its travel when in neutral position.
 
@@ -25,17 +25,17 @@ servo only when moved to the left, and right servo only when moved
 to the right. In addition to that, pulling the elevator direction pulls both
 servos simultaneously, and pushing the elevator does nothing.
 
-* **Full-scale control** where the left stick from the neutral to the
+* **Full-scale control**, where the left stick from the neutral to the
 outwards left position controls the full travel of the left servo,
 the right stick from the middle to the outwards right position controls the
-right servo, inwards movement of those sticks do nothing, as well as
-the elevator stick.
+right servo, inwards movement of those sticks does nothing, and also
+the elevator direction movement does nothing.
 
 So far I did not find a good way how to set the first mode with full servo
 travel using only three mixes of FS-i6. So I will describe how to set up
 the second (full-scale like) type control:
 
-## Setup
+## Setup (Full-scale Controls)
 
 I presume Mode 2 (throttle on the left stick) here. Plug the left servo
 to `Ch4` and the right servo to `Ch1` of your receiver. Then set up the
