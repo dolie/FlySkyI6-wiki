@@ -41,7 +41,7 @@ Key → Aux Channels
 ```
 
 Use the mix to move the elevator up with `SwC`. Note that the differences
-are very tiny, 0 % in the fast mode (default), 3 % in the slow mode, and 9 % in the takeoff/landing mode.
+are very tiny, 0 % in the fast mode (default), +6 % in the slow mode, and +15 % in the takeoff/landing mode.
 
 ```
 Key → Mix → Mix 1
