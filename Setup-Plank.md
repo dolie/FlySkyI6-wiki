@@ -8,7 +8,7 @@ elevator input, and a bit less sensitive to the aileron input.
 
 ![Ita Plank Wing](plank-ita.jpg)
 
-I also wanted to have **flying modes** on a three-position switch `SwC`:
+In addition to the basic elevon setup, I also wanted to have **flying modes** on a three-position switch `SwC`:
 
 * **fast mode**, elevator trimmed for fast flight,
   `SwC` in the default position (up)
@@ -17,9 +17,9 @@ I also wanted to have **flying modes** on a three-position switch `SwC`:
 
 My plank wing is pretty aerobatic, and I tend to overcontrol it when flying
 high in thermals. So I decided to use a previously unused rudder stick
-as another, low-rate, aileron input. That way I can completely control it with
-rudder stick only, gliding in thermal, and also to have the left stick to
-"do something" as I expect when flying 4-channel planes.
+as another, low-rate, aileron input. That way I can completely control the
+plane with rudder stick only, gliding in the thermal, and also to have the
+left stick to "do something" as I expect from flying 4-channel planes.
  
 ## Setup
 
