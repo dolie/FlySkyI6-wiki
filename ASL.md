@@ -5,7 +5,8 @@ in the `System` ⭢ `Extra` ⭢ `ASL` menu:
 
 ![ASL Menu](asl.jpg)
 
-It cannot compute altitude by itself, so the computation is done by the Tx.
+The sensor cannot compute the altitude by itself, so the computation
+is done inside the Tx firmware.
 
 ## Setup
 
