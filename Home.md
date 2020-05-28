@@ -65,7 +65,7 @@ All donations are greatly appreciated!
 _(not specific to the FlyPlus firmware)_
 
 * [Plank Flying Wing](Setup-Plank)
-* [Ailerons on two separate channels](Setup-Dual-Ailerons) TODO
+* [Aileron Differential](Setup-Aileron-Differential)
 * [Paraglide/Paramotor](Setup-Paraglide)
 * [Snap Flaps](Setup-Snapflaps) TODO
 * [Disable channel using a switch](Setup-Disable-Channel)
