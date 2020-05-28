@@ -31,7 +31,10 @@ Key → Aux Channels
 
 Then set up both ailerons as elevons. Note that we want the full travel
 across the aileron stick range, instead of what is commonly used with elevons,
-having the full travel in the diagonal stick positions only:
+having the full travel in the diagonal stick positions only. The value
+for `CH2` below represents the movement of the snap flaps. When less
+movement is desired, it is possible to lower the value to e.g. 30 % (which is
+what I originally started with):
 
 ```
 Key → Elevon
