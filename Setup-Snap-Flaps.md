@@ -8,6 +8,10 @@ is pulled, and upwards (reflex), when the elevator is pushed.
 See [this article](https://www.slopeaerobatics.com/articles/how-to/an-introduction-to-4-axis-slope-aerobatics/) at *slopeaerobatics.com* for
 the details.
 
+In addition, we want to be able to control
+the camber/reflex of the main wing also with a potentiometer, independent
+of the elevator stick.
+
 ## Set up
 
 The main challenge is to overcome the limit of FS-i6, only three usable
@@ -15,9 +19,7 @@ mixes. But wait - there is an additional powerful mix which we can (ab-)use,
 the *elevon mix*.
 
 Plug the right aileron servo to `Ch1`, the left aileron servo to `Ch2`,
-and the elevator servo to `Ch5`. In addition, we want to be able to control
-the camber/reflex of the main wing also with a potentiometer, independent
-of the elevator stick.
+and the elevator servo to `Ch5`.
 
 Set up the auxilliary channels as follows:
 
