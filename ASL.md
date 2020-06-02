@@ -12,15 +12,12 @@ is done inside the Tx firmware.
 
 The **default values** can be set by long pressing the `OK` button.
 
-A short press of `OK` is used to change the between the pressure at the sea
-level and temperature. The altitude is calculated as altitude **above the
-sea level**.
+A short press of the `OK` button is used to change between the pressure
+at the sea level and temperature. The Altitude is calculated as altitude
+**above the sea level**.
 
-If the desired value is altitude **relative to start position**,
-set the pressure and temperature a current pressure and temperature
+To set the **relative altitude**, set a current pressure and temperature
 at the start position.
 
-The altitude should be re-calculated on every value change.
-
-
+Altitude is re-calculated on every value change.
 
