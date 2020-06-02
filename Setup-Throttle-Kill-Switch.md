@@ -39,9 +39,9 @@ Configure it as linear from 0 % to 100 %:
 
 Alternatively, when both throttle curves are needed for some other purpose
 than the throttle kill switch, it is possible to use the Throttle hold
-feature. The disadvantage of this is that it is not possible to configure
-the switch to be in the _throttle disabled_ position by default, after
-power-on.
+feature. The disadvantage of this approach is that it is not possible
+to configure the switch to be in the _throttle disabled_ position by default,
+after power-on.
 
 Firstly, set `SwA` as _throttle hold_ switch:
 
@@ -60,9 +60,11 @@ Key → Throttle hold
 
 ## Note
 
-The assignment of switches to various internal functions (_thottle hold_, _teacher/student_, _dual rate_, _throttle idle-up_) in the `Key → Switches assign`
-menu work regardless of the assignment of these switches to a particular
-servo channel, and regardless of reversing the said channel. They work
-even without assigning the switch to a channel at all in the
+The assignment of switches to various internal functions
+(_thottle hold_, _teacher/student_, _dual rate_, _throttle idle-up_)
+in the `Key → Switches assign` menu works regardless of the assignment
+of these switches to a particular servo channel, and regardless of reversing
+the said channel in the `Key → Reverse` menu. These features work even
+without assigning the switch to a channel at all in the
 `Key → Aux channels` menu.
 
