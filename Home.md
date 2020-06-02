@@ -69,6 +69,7 @@ _(not specific to the FlyPlus firmware)_
 * [Paraglide/Paramotor](Setup-Paraglide)
 * [Snap Flaps](Setup-Snap-Flaps)
 * [Disable channel using a switch](Setup-Disable-Channel)
+* [Throttle kill switch](Setup-Throttle-Kill-Switch)
 
 ## Tools
 
