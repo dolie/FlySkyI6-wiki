@@ -27,12 +27,12 @@ Key → Switches assign
 
 Then go to the `Key → Throttle curve` menu, and set all the points in the _Normal_ curve to zero:
 
-!(Throttle Normal Curve)[throttle-normal.jpg]
+![Throttle Normal Curve](throttle-normal.jpg)
 
 Then flip the `SwA` switch, and the _Idle up_ curve is displayed.
 Configure it as linear from 0 % to 100 %:
 
-!(Throttle Idle-up Curve)[throttle-idle-up.jpg]
+![Throttle Idle-up Curve](throttle-idle-up.jpg)
 
 
 ## Setup using Throttle hold
