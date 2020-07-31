@@ -71,7 +71,7 @@ models need to be configured again. When upgrading from the earlier FlyPlus
 firmware versions, the set up _should_ be preserved. But as always, *verify
 that the models are set up correctly before flight!*
 
-### Note on 1.7.6 ###
+## Note on 1.7.6 ##
 
 For upgrade to 1.7.6 from earlier versions, the **configuration added by
 FlyPlus features gets overwritten**. This means it is necessary to set up the
@@ -84,4 +84,11 @@ following features again:
 
 and maybe some other as well, sorry.
 
-Enjoy!
+## Flashing with Arduino ##
+
+It is also possible to flash the firmware with an Arduino board
+with the FT232 serial chip, such as Arduino Nano. It is just necessary
+to keep the ATmega MCU out of way by holding the RESET pin to zero.
+Follow [this video tutorial](https://www.youtube.com/watch?v=LfZHrCZyC6o).
+(Thanks @TheUNkilled123 for the link).
+
